@@ -1,0 +1,6 @@
+targets:
+  $default:
+    builders:
+      environment_config:
+        generate_for:
+          - environment.yaml

@@ -1,6 +1,6 @@
 name: flutter_env_manager
 description: "A package for managing Flutter app environments and versions"
-version: 0.0.1
+version: 0.0.2
 homepage:
 
 environment:
@@ -19,7 +19,7 @@ dev_dependencies:
   flutter_lints: ^4.0.0
   build_runner: ^2.4.6
   build: ^2.4.1
-
+  build_config: ^1.1.2
 
 
 # For information on the generic Dart part of this file, see the
@@ -59,9 +59,9 @@ flutter:
 # For details regarding fonts in packages, see
 # https://flutter.dev/to/font-from-package
 
-builders:
-  environment_config:
-    import: "package:flutter_env_manager/environment_generator.dart"
-    builder_factories: [ "environmentConfigBuilder" ]
-    build_extensions: { ".yaml": [ ".env.dart" ] }
-    auto_apply: root_package
+#builders:
+#  environment_config:
+#    import: "package:flutter_env_manager/environment_generator.dart"
+#    builder_factories: [ "environmentConfigBuilder" ]
+#    build_extensions: { ".yaml": [ ".env.dart" ] }
+#    auto_apply: root_package
