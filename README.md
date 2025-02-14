@@ -1,39 +1,22 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Flutter Env Manager
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+A Flutter package to manage environment configurations using YAML files. This package automatically generates a Dart class (`AppEnvironment`) based on the environment configuration defined in a `environment.yaml` file. It supports dynamic key-value pairs, making it easy to add custom variables for different environments.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+---
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- **Automatic YAML File Creation**: If `environment.yaml` doesn't exist, the package creates it with default values.
+- **Dynamic Class Generation**: Generates a Dart class (`AppEnvironment`) with static variables for all key-value pairs in the selected environment.
+- **Support for Multiple Environments**: Define multiple environments (e.g., `development`, `staging`, `production`) in the YAML file.
+- **Custom Variables**: Add any number of custom variables to your environment configuration.
 
-## Getting started
+---
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## Installation
 
-## Usage
+Add `flutter_env_manager` to your `pubspec.yaml` file:
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```yaml
+dependencies:
+  flutter_env_manager: ^1.0.0

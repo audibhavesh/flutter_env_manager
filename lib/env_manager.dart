@@ -1,4 +1,5 @@
 import 'dart:io';
+
 import 'package:yaml/yaml.dart';
 
 class EnvManager {
@@ -33,7 +34,8 @@ ${_generateStaticVariables(envConfig)}
     final buffer = StringBuffer();
     envConfig.forEach((key, value) {
       if (value is String) {
-        buffer.writeln("  static const String $key = '${value.replaceAll("'", "\\'")}';");
+        buffer.writeln(
+            "  static const String $key = '${value.replaceAll("'", "\\'")}';");
       } else if (value is num) {
         buffer.writeln("  static const num $key = $value;");
       } else if (value is bool) {
