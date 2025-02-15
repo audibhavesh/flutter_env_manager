@@ -59,5 +59,7 @@ fvm dart run flutter_env_manager development
 Bhavesh Auodichya  
 
 Personal email  - [theoctacoder@gmail.com](mailto:theoctacoder@gmail.com)
+
 Work email  - [bhavesa@fermion.in](mailto:bhavesa@fermion.in)
+
 Publisher's LinkedIn - [Fermion Infotech](https://www.linkedin.com/company/fermioninfotech?trk=profile-position)
