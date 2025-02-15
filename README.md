@@ -57,6 +57,7 @@ fvm dart run flutter_env_manager development
 ## Developed by:
 
 Bhavesh Auodichya  
-Personal email - theoctacoder@gmail.com  
-Work email - bhavesa@fermion.in  
+[Personal email](mailto:theoctacoder@gmail.com) - theoctacoder@gmail.com  
+[Work email](mailto:bhavesa@fermion.in) - bhavesa@fermion.in
+
 Publisher's LinkedIn - [Fermion Infotech](https://www.linkedin.com/company/fermioninfotech?trk=profile-position)
