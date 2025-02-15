@@ -146,7 +146,6 @@ environments:
   development:
     base_url: https://api.dev.example.com
     api_key: dev_api_key
-    custom_var: some_value
   staging:
     base_url: https://api.staging.example.com
     api_key: staging_api_key
