@@ -1,5 +1,7 @@
 import 'env_manager.dart';
 
 void main(List<String> arguments) async {
-  await EnvManager.generateEnvClass();
+  final envArgument = arguments.isNotEmpty ? arguments.first : null;
+  await EnvManager.generateEnvClass(envArgument);
 }
+
