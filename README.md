@@ -20,7 +20,7 @@ Add `flutter_env_manager` to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  flutter_env_manager: ^1.0.2
+  flutter_env_manager: ^1.0.3
 ```
 
 ---

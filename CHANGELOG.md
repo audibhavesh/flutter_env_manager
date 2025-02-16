@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.3] - Lower Dart SDK Support & Removed Flutter Dependency
+
+### Added
+- Added support for **lower Dart SDK versions** (now supports Dart `>=2.12.0 <3.7.0`).
+- Improved **compatibility with standalone Dart projects**.
+
+### Changed
+- **Removed Flutter SDK dependency**, making the package **pure Dart**.
+- Updated `pubspec.yaml` to remove unnecessary Flutter constraints.
+
+### Fixed
+- Addressed issues related to **runtime compatibility** with `dart run`.
+
 ## [1.0.2] - Added WASM Compatibility & Documentation Improvements
 
 ### Added
