@@ -10,7 +10,7 @@ A Flutter package to manage environment configurations using YAML files. This pa
 - **Dynamic Class Generation**: Generates a Dart class (`AppEnvironment`) with static variables for all key-value pairs in the selected environment.
 - **Support for Multiple Environments**: Define multiple environments (e.g., `development`, `staging`, `production`) in the YAML file.
 - **Custom Variables**: Add any number of custom variables to your environment configuration.
-- **Pubspec Version Support**: Reads the app version from `pubspec.yaml` and includes it in the generated `AppEnvironment` class.
+- **Pubspec Version Support**: Writes the app version in `pubspec.yaml` and includes it in the generated `AppEnvironment` class.
 
 ---
 
@@ -20,7 +20,7 @@ Add `flutter_env_manager` to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  flutter_env_manager: ^1.0.4
+  flutter_env_manager: ^1.0.5
 ```
 
 ---

@@ -1,6 +1,6 @@
 name: flutter_env_manager
 description: "A package for managing Flutter app environments and versions"
-version: 1.0.4
+version: 1.0.5
 homepage: https://github.com/audibhavesh/flutter_env_manager
 repository: https://github.com/audibhavesh/flutter_env_manager
 

@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.5] - Environment Versioning Fix & Documentation Updates
+
+### Added
+- **Improved version formatting** in `pubspec.yaml`:
+    - If `isProdEnv: true`, the version remains as `1.0.0`.
+    - Otherwise, it follows `{version}-{environment}` format (e.g., `1.0.0-staging`).
+- **Added full DartDoc documentation** to meet `pub.dev` standards.
+- **Improved error handling** for missing `environment.yaml` or invalid environments.
+
+### Changed
+- Refactored `_updatePubspecVersion()` to ensure consistent versioning across environments.
+- Enhanced `_generateStaticVariables()` to improve code readability.
+
+### Fixed
+- Fixed issue where `pubspec.yaml` version update could fail on some configurations.
+- Addressed incorrect handling of `isProdEnv` logic when formatting the version.
+
+---
+
 ## [1.0.4] - Latest Dart SDK Support
 
 ### Added
